@@ -27,15 +27,16 @@ body.className = "light";
 }
 
 if (count > 5) {
-  var plate =
-  statusText.innerText = "MALFUNCTION!!!!"
+  
+  statusText.innerText = "MALFUNCTION!!!!";
+
    setInterval(function() {
+
        statusText.style.display = (statusText.style.display == '' ? 'none' : '');
-   }, 700);
+   }, 400);
    setInterval(function() {
-     body.className = ".tooManyClicks"
-  body.style.backgroundColor =   (body.style.backgroundColor == "black" ? " " : "red");
-}, 700);
+  body.style.backgroundColor =   (body.style.backgroundColor == "black" ? "red" :"black" );
+}, 400);
 }
 count ++;
 });
