@@ -8,6 +8,13 @@
     color: #FFF;
 }
 
+.tooManyClicks {
+  background-color: red;
+  color: black;
+  text-shadow: 5px 5px purple;
+
+}
+
 .status {
     font: 3em Impact, Helvetica, sans-serif;
     position: absolute;
