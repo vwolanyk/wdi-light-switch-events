@@ -27,17 +27,20 @@ body.className = "light";
 }
 
 if (count > 5) {
-  
+  var lightning = document.querySelector('img');
   statusText.innerText = "MALFUNCTION!!!!";
-
+  statusText.style.color = "purple"
    setInterval(function() {
 
        statusText.style.display = (statusText.style.display == '' ? 'none' : '');
-   }, 400);
+   }, 600);
    setInterval(function() {
   body.style.backgroundColor =   (body.style.backgroundColor == "black" ? "red" :"black" );
 }, 400);
+
+  lightning.style.display = ("block")
 }
+
 count ++;
 });
 

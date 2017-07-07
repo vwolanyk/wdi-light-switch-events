@@ -8,6 +8,14 @@
     color: #FFF;
 }
 
+img {
+    position: absolute;
+    width: 122px;
+    height: 230px;
+    left: 35px;
+    top: 32px;
+    display: none;
+}
 .tooManyClicks {
   background-color: red;
   color: black;
